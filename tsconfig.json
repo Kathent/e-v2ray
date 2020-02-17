@@ -1,0 +1,14 @@
+{
+    "compilerOptions":{
+        "target": "es5",
+        "module":"CommonJS",
+        "watch":false,
+        "sourceMap": true,
+        "outDir": "./build",
+        "experimentalDecorators": true,
+        "types": [],
+        "jsx":"react",
+    },
+    "include":["src/**/*.ts"],
+    "exclude":["node_modules", "build", "dist"]
+}
